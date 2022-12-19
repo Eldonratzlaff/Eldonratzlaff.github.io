@@ -1,0 +1,429 @@
+@media only screen and (min-width: 768px) {
+  .ornament-top,
+  .menu1 {
+    display: none;
+  }
+
+  .top-page {
+    display: inline;
+  }
+
+  .header-desktop {
+    display: flex;
+    justify-content: center;
+    transition: all 0, 5s ease-out;
+  }
+
+  .header-desktop div {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .top-text {
+    max-width: 484px;
+    background-image: url(/pic-desktop/image_dots.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 175px 175px;
+    background-position: right bottom;
+  }
+
+  .top-name {
+    font-size: 110px;
+    width: 484px;
+  }
+
+  .top-buton {
+    width: 254px;
+    height: 70px;
+  }
+
+  .ornamen-first-botom {
+    background-image: url("/pic-desktop/Thur.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 702px;
+    height: 877px;
+    margin: 0;
+  }
+
+  .midle-section {
+    margin: 130px 0;
+    padding: 50px 0 0 0;
+    display: grid;
+    grid-template-columns: 56vw 9vw 357px;
+    grid-template-rows: 421px 87px 121px 320px 354px;
+    grid-template-areas:
+      "projects works-cards1 works-cards1"
+      "works-cards2 ornament3 picture6"
+      "works-cards2 ornament4 works-cards6"
+      "works-cards3 ornament2 works-cards5"
+      "ornament1 works-cards4 works-cards4";
+  }
+
+  .projects {
+    grid-area: projects;
+    width: 550px;
+    height: 350px;
+    transform: rotate(-90deg);
+    font-size: 90px;
+    padding: 0 0 0 68px;
+    margin: 0 0 0 -68px;
+  }
+
+  .project1 {
+    width: 44vw;
+    height: 400px;
+    background-position: right bottom;
+    background-size: cover;
+    padding: 0 0 0 250px;
+    margin: 0 0 0 -250px;
+  }
+
+  .project2 {
+    margin-left: 0;
+  }
+
+  .project3 {
+    margin-right: 0;
+    width: 48vw;
+    height: 320px;
+    background-size: cover;
+  }
+
+  .project4 {
+    margin-left: 0;
+    width: 30vw;
+    height: 300px;
+    background-size: cover;
+  }
+
+  .proyect-foot2 {
+    display: none;
+  }
+
+  .proyect-foot3 {
+    display: none;
+  }
+
+  .proyect-foot4 {
+    display: none;
+  }
+
+  /* .proyect-foot5 {
+    display: none;
+  } */
+
+  .proyect-foot6 {
+    display: none;
+  }
+
+  .picture6 {
+    grid-area: picture6;
+
+    /* display: block; */
+    background-image: url(/pict-mobile/Rectangle\ 21\ \(5\) .svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ornament1 {
+    grid-area: ornament1;
+    display: block;
+    background-image: url(/pic-desktop/image-geometry_5.svg), url(/pic-desktop/image-geometry_4.svg);
+    background-repeat: no-repeat no-repeat;
+    background-size: contain contain;
+    background-size: 124px 124px 87px 87px;
+    background-position: left top, right top;
+  }
+
+  .ornament2 {
+    grid-area: ornament2;
+    display: block;
+    background-image: url(/pic-desktop/Shape.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 130px 130px;
+    background-position: left bottom;
+  }
+
+  .ornament3 {
+    grid-area: ornament3;
+    z-index: -1;
+    display: block;
+    background-image: url(/pic-desktop/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 430px 280px;
+    background-position: right bottom;
+    padding: 200px 0 120px 300px;
+    margin: -200px 0 -120px -300px;
+  }
+
+  .ornament4 {
+    grid-area: ornament4;
+    z-index: -1;
+    display: block;
+    background-image: url(/pic-desktop/Group\ 83.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 350px 175px;
+    background-position: left top;
+    padding: 0 350px 200px 0;
+    margin: 240px -350px -200px 180px;
+  }
+
+  .works-cards1 {
+    grid-area: works-cards1;
+  }
+
+  .proyect-foot1 {
+    width: 44vw;
+    padding: 0 0 0 250px;
+    margin: 0 0 0 -250px;
+  }
+
+  .works-cards1 .proyect-foot1 {
+    display: none;
+  }
+
+  .works-cards1:hover .proyect-foot1 {
+    display: block;
+  }
+
+  .works-cards2 {
+    grid-area: works-cards2;
+  }
+
+  .works-cards2 .proyect-foot2 {
+    display: none;
+  }
+
+  .works-cards2:hover .proyect-foot2 {
+    display: block;
+    width: 400px;
+  }
+
+  .works-cards3 {
+    grid-area: works-cards3;
+  }
+
+  .works-cards3 .proyect-foot3 {
+    display: none;
+  }
+
+  .works-cards3:hover .proyect-foot3 {
+    display: block;
+  }
+
+  .works-cards4 {
+    grid-area: works-cards4;
+  }
+
+  .works-cards4 .proyect-foot4 {
+    display: none;
+  }
+
+  .works-cards4:hover .proyect-foot4 {
+    display: block;
+  }
+
+  .proyect-foot5 {
+    order: -1;
+  }
+
+  .works-cards5 {
+    grid-area: works-cards5;
+  }
+
+  .works-cards5 .proyect-foot5 {
+    display: none;
+  }
+
+  .works-cards5:hover .proyect-foot5 {
+    display: block;
+  }
+
+  .works-cards6 {
+    grid-area: works-cards6;
+  }
+
+  .works-cards6 .proyect-foot6 {
+    display: none;
+  }
+
+  .works-cards6:hover .proyect-foot6 {
+    display: block;
+  }
+
+  .about-section {
+    margin: 90px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container {
+    padding-left: 9vw;
+    padding-bottom: 200px;
+  }
+
+  .about-title {
+    font-size: 110px;
+    text-align: left;
+    padding: 0 0 0 16px;
+    margin: 5px 0 5px 0;
+  }
+
+  .about-p {
+    color: #1a2236;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 16px 30px 0;
+    max-width: 446px;
+  }
+
+  .categories {
+    order: -1;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "languages frameworks"
+      "skills categories-img";
+  }
+
+  .categories-img {
+    background-image: url(/pic-desktop/image_dots_with_teal.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 222px 222px;
+    background-position: right bottom;
+    width: 288px;
+    height: 288px;
+  }
+
+  .languages,
+  .frameworks,
+  .skills {
+    padding: 0;
+    margin: 0;
+  }
+
+  .foot-section-andform {
+    background-image: url(/pic-desktop/image-geometry_6.svg), url(/pic-desktop/image-geometry_7.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-size: 264px 351px, 351px 351px;
+    background-position: left top, right bottom;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot-section-h {
+    font-size: 110px;
+    width: 548px;
+    text-align: center;
+  }
+
+  .foot-section-p {
+    margin: 0 0 30px 0;
+    font-size: 14px;
+    width: 548px;
+  }
+
+  .your-name-container div,
+  .email-container div {
+    margin: 0 0;
+    font-size: 12px;
+    color: #7d7c84;
+  }
+
+  .name-email-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 542px;
+  }
+
+  .your-name-container {
+    background-color: transparent;
+    border: none;
+    width: 254px;
+    height: 78px;
+  }
+
+  .email-container {
+    background-color: transparent;
+    border: none;
+    width: 253px;
+    height: 78px;
+  }
+
+  input {
+    width: 254px;
+    height: 60px;
+    border: 1px solid #dfdfe0;
+  }
+
+  .texarea-message {
+    margin-top: 40px;
+    display: block;
+    font-size: 12px;
+    color: #7d7c84;
+  }
+
+  textarea {
+    width: 542px;
+    height: 140px;
+    align-self: center;
+  }
+
+  .start-coll-btn {
+    margin-top: 60px;
+    width: 254px;
+    height: 70px;
+  }
+
+  .foot-botom {
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .get-resume-btn {
+    padding: 0 0 0 70px;
+  }
+
+  .get-resume-btn div {
+    background-image: url(/pic-desktop/ic-link_teal.svg);
+    background-size: contain;
+  }
+
+  .social-media {
+    padding: 0 90px 0 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .social-media div {
+    margin: 0 15px 0 15px;
+  }
+
+  .header-desktop div:hover {
+    background-color: #7d7c84;
+  }
+}
