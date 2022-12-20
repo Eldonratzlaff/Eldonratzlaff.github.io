@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/stylequery.css">
  
     <link rel = "icon" href =  "/pict-mobile/bxs-radiation.svg" type = "image/x-icon">
-    <title>Portfolio</title>
+    <title>Eldon Portfolio</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
     <h2 class="projects">Projects</h2>
 <!-- proyect 1 -->
 <div class="works-cards works-cards1">
-    <div class="project1"></div>
+    <div class="project1" aria-label="First project"></div>
     <div class="proyect-foot1">
         <h2 class="proyect-foot1-p">Project name goes here</h2>
         <ul class="proyect-foot1-ul">
@@ -60,7 +60,7 @@
 
 <!-- proyect 2 -->
 <div class="works-cards works-cards2">
-    <div class="project2"></div>
+    <div class="project2" aria-label="project two"></div>
     <div class="proyect-foot2">
         <h2 class="proyect-foot1-p">Project name goes here</h2>
         <ul class="proyect-foot1-ul">
@@ -77,7 +77,7 @@
 
 <!-- proyect 3 -->
 <div class="works-cards works-cards3">
-    <div class="project3"></div>
+    <div class="project3" aria-label="project three"></div>
     <div class="proyect-foot3">
         <h2 class="proyect-foot1-p">Project name goes here</h2>
         <ul class="proyect-foot1-ul">
@@ -94,7 +94,7 @@
 
 <!-- proyect 4 -->
 <div class="works-cards works-cards4">
-    <div class="project4"></div>
+    <div class="project4" aria-label="project for"></div>
     <div class="proyect-foot4">
         <h2 class="proyect-foot1-p">Project name goes here</h2>
         <ul class="proyect-foot1-ul">
@@ -112,7 +112,7 @@
 
 <!-- proyect 5 -->
 <div class="works-cards works-cards5" >
-    <div class="project5"></div>
+    <div class="project5" aria-label="project five"></div>
     <div class="proyect-foot5">
         <h2 class="proyect-foot1-p">Project name goes here</h2>
         <ul class="proyect-foot1-ul">
@@ -130,7 +130,7 @@
 
 <!-- proyect 6 -->
 <div  class="works-cards works-cards6">
-    <div class="project6"></div>
+    <div class="project6" aria-label="project six"></div>
     <div class="proyect-foot6">
         <h2 class="proyect-foot1-p">Project name goes here</h2>
         <ul class="proyect-foot1-ul">
@@ -219,19 +219,21 @@
           
             <div class="name-email-divs">
                 <div class="your-name-container">                        
-                     <div>Your name</div>
-                    <input type="text" name="your name" placeholder="Anastasiia" maxlength='30' required id="">
+                     <!-- <div>Your name</div> -->
+                     <label for="text">Your name</label>
+                    <input type="text" name="your name" placeholder="Anastasiia" maxlength='30' required id="text">
                 </div>              
             
                 <div class="email-container">
-                    <div>Your email</div>
-                    <input type="email" placeholder="|"  name="your email" id="" required >
+                    <!-- <div>Your email</div> -->
+                    <label for="email">Your email</label>
+                    <input type="email" placeholder="|"  name="your email" id="email" required >
                 </div>    
     
             </div>
-            <div class="texarea-message">Message</div>
-    
-             <textarea class="form-coment" name="form-coment" id="" placeholder="Enter your message here" maxlength='500' required cols="30" rows="10"></textarea>
+            <!-- <div class="texarea-message">Message</div> -->
+            <label class="texarea-message" for="coment">Message</label>    
+             <textarea class="form-coment" name="form-coment" id="coment" placeholder="Enter your message here" maxlength='500' required cols="30" rows="10"></textarea>
             
             <button class="start-coll-btn" type="submit" >Start collaboration</button>
     
@@ -243,12 +245,12 @@
             <div></div>
         </button>
         <div class="social-media">
-            <div class="stak"></div>
-            <div class="git"></div>
-            <div class="twitt"></div>
-            <div class="link"></div>
-            <div class="medium"></div>
-            <div class="angelist"></div>
+            <div class="stak" aria-label="go to my stak" ></div>
+            <div class="git" aria-label="go to my git" ></div>
+            <div class="twitt" aria-label="go to my twitter"></div>
+            <div class="link" aria-label="go to my link in"></div>
+            <div class="medium" aria-label="go to my medium"></div>
+            <div class="angelist" aria-label="go to my angellist page"></div>
 
         </div>
     </div>
