@@ -361,16 +361,16 @@ body {
 .about-boxes {
   margin: 30px 0 10px 50px;
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 1000;
+  font-size: 22px;
 }
 
 .languages-ul {
   padding-left: 70px;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .foot-section {
