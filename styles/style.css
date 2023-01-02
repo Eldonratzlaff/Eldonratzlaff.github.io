@@ -15,19 +15,7 @@ body {
 
 .ornament-top {
   display: inline;
-
-  /* animation: rotate 2s infinite; */
 }
-
-/* @keyframes rotate {
-  0% {
-  transform: rotate(45deg);
-  }
-
-  100% {
-  transform: rotate(-45deg);
-  }
-} */
 
 .menu1 {
   display: inline;
