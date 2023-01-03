@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Poppins&display=swap");
 
-html{
+html {
   overflow-x: hidden;
 }
 
@@ -38,10 +38,10 @@ body {
 }
 
 /* Hamburger */
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-list {
@@ -50,8 +50,7 @@ body {
   list-style: none;
 }
 
-.navbar-link,
-.navbar-link{
+.navbar-link {
   display: inline-block;
   text-decoration: none;
   text-transform: capitalize;
@@ -607,7 +606,6 @@ textarea::placeholder {
     position: absolute;
     top: 0;
     left: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -615,7 +613,6 @@ textarea::placeholder {
     /* to get transition */
     transform: translateX(100%);
     transition: all 0.5s linear;
-
     opacity: 0;
     visibility: none;
     pointer-events: none;
@@ -624,7 +621,6 @@ textarea::placeholder {
   .navbar-list {
     flex-direction: column;
     align-items: center;
-
   }
 
   .active .navbar {
