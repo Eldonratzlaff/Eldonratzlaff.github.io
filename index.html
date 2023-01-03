@@ -12,18 +12,43 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header class="header">
         <div class="top-page">
             <div class="ornament-top"><img src="/pict-mobile/image_geometry_1.svg" alt=""></div>
+            
             <nav class="menu1"><img src="/pict-mobile/ic_menu.svg" alt="Menu icon"></nav>
+            
             <div class="header-desktop">
                 <div>Hello</div>
                 <div>Portfolio</div>
                 <div>About</div>
                 <div>Contact</div>
             </div>
+            <div class="mobile-navbar-btn">
+                <ion-icon name="close" class="mobile-nabar-icon"></ion-icon>
+                <ion-icon name="menu" class="mobile-nabar-icon"></ion-icon>
+            </div>
+        </div>
+    </header> -->
+
+    <!-- code by abubakar -->
+    <header class="header active">
+        <img src="logo" alt="logo" class="logo">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="#">Hello</a></li>
+                <li><a class="navbar-link" href="#">Portfolio</a></li>
+                <li><a class="navbar-link" href="#">About</a></li>
+                <li><a class="navbar-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Hamburger -->
+        <div class="mobile-navbar-btns">
+            <ion-icon name="menu" class="mobile-navbar-icon"></ion-icon>
+            <ion-icon name="close" class="mobile-navbar-icon"></ion-icon>
         </div>
     </header>
+
 <section class="headline">
     <div class="top-text"> 
         <h1 class="top-name">ELDON RATZLAFF</h1>
@@ -255,10 +280,8 @@
         </div>
     </div>
 </section>
-<section class="mobilemenu" id="mobilemenu">
-
-</section>
-
+<!-- JAVASCRIPT SECTION START -->
 <script src="script.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
