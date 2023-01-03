@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Poppins&display=swap");
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
+  overflow-x: hidden;
 }
 
 .top-page {
@@ -15,19 +20,7 @@ body {
 
 .ornament-top {
   display: inline;
-
-  /* animation: rotate 2s infinite; */
 }
-
-/* @keyframes rotate {
-  0% {
-  transform: rotate(45deg);
-  }
-
-  100% {
-  transform: rotate(-45deg);
-  }
-} */
 
 .menu1 {
   display: inline;
@@ -42,6 +35,45 @@ body {
 .headline {
   display: flex;
   flex-direction: column;
+}
+
+/* Hamburger */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 2.8rem;
+  list-style: none;
+}
+
+.navbar-link {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #212529;
+  transition: all 0.3s;
+}
+
+.mobile-navbar-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #212529;
+}
+
+.mobile-navbar-btns {
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.mobile-navbar-icon[name="close"] {
+  display: none;
 }
 
 .top-text {
@@ -552,4 +584,57 @@ textarea::placeholder {
   background-size: contain;
   height: 24px;
   width: 23px;
+}
+
+@media (max-width: 980px) {
+  .mobile-navbar-btns {
+    display: block;
+    z-index: 999;
+    border: 3px solid #212529;
+    color: #212529;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .navbar {
+    /* display: none; */
+    width: 100%;
+    height: 150vh;
+    background: #e7f5ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* to get transition */
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .active .navbar {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .active .mobile-navbar-btns .mobile-navbar-icon[name="close"] {
+    display: block;
+  }
+
+  .active .mobile-navbar-btns .mobile-navbar-icon[name="menu"] {
+    display: none;
+  }
 }
