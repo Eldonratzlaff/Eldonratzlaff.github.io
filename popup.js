@@ -224,6 +224,7 @@ const validateinputs=() =>{
     const emailinput= email.value.trim();
     const comentinput= coment.value.trim();   
     if(nameinput===""){  const errornames = document.querySelector(".your-name-container");
+    names.placeholder="Please enter your name";
     errornames.classList.add("error");
        }
     else { 
@@ -233,16 +234,20 @@ const validateinputs=() =>{
 
     if(emailinput===""){
     const erroremail = document.querySelector(".email-container");
+    email.placeholder="Please enter your email";
     erroremail.classList.add("error")
       ; }  else if(!isValidEmail(emailinput)){
         const erroremail2 = document.querySelector(".email-container");
+        email.placeholder="Please enter a valid email";
         erroremail2.classList.add("error");
       }      
     else {  const succesemail = document.querySelector(".email-container");
    succesemail.classList.add("succes");
     }
 
-    if(comentinput===""){  const errorcoment = document.querySelector(".form-coment");
+    if(comentinput===""){  
+    const errorcoment = document.querySelector(".form-coment");
+    errorcoment.placeholder="I would appreciate it if you leave a comment";
     errorcoment.classList.add("error");
        }
     else { 
