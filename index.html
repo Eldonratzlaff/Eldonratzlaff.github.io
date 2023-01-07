@@ -234,29 +234,27 @@
         
         <p class="foot-section-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     
-        <form action="https://formspree.io/f/xaykaovn" method="post" >
+        <form action="https://formspree.io/f/xaykaovn" method="post" id="form" >
           
             <div class="name-email-divs">
                 <div class="your-name-container">                        
-                     <!-- <div>Your name</div> -->
                      <label for="text">Your name</label>
-                    <input type="text" name="your name" placeholder="Anastasiia" maxlength='30' required id="text">
+                    <input type="text" name="your name" placeholder="Anastasiia" maxlength='30'  id="names">
                 </div>              
             
                 <div class="email-container">
-                    <!-- <div>Your email</div> -->
                     <label for="email">Your email</label>
-                    <input type="email" placeholder="|"  name="your email" id="email" required >
+                    <input type="email" placeholder="|"   name="your email" id="email" >
+                    <div class="upererrorselect"> Pleas use a valid email</div>
                 </div>    
     
             </div>
-            <!-- <div class="texarea-message">Message</div> -->
             <label class="texarea-message" for="coment">Message</label>    
-             <textarea class="form-coment" name="form-coment" id="coment" placeholder="Enter your message here" maxlength='500' required cols="30" rows="10"></textarea>
+             <textarea class="form-coment" name="form-coment" id="coment" placeholder="Enter your message here" maxlength='500' cols="30" rows="10" ></textarea>
             
             <button class="start-coll-btn" type="submit" >Start collaboration</button>
-    
         </form>
+
     </div>  
     <div class="foot-botom">
         <button class="get-resume-btn">
@@ -277,6 +275,8 @@
 <!-- JAVASCRIPT SECTION START -->
 <script src="script.js"></script>
 <script src="popup.js"></script>
+<script src="storage.js"></script>
+
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>

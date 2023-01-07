@@ -426,6 +426,7 @@ body {
   font-size: 14px;
 }
 
+/* form start */
 .your-name-container,
 .email-container {
   border: 1px solid black;
@@ -472,6 +473,29 @@ input {
   font-size: 14px;
 }
 
+.error {
+  border:
+    #ab1c28 solid
+    3px;
+}
+
+.succes {
+  border:
+    green solid
+    3px;
+}
+
+.upererrorselect {
+  display: none;
+}
+
+.upererror {
+  display: block;
+  margin-left: 20px;
+  font-size: 15px;
+  color: #ab1c28;
+}
+
 input::placeholder {
   padding-left: 16px;
   color: black;
@@ -504,6 +528,7 @@ textarea::placeholder {
   margin-bottom: 64px;
 }
 
+/* form end */
 .foot-botom {
   background-color: #1a2236;
   height: 150px;

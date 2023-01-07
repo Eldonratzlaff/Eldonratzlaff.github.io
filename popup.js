@@ -203,4 +203,77 @@ function loadpages() {
 }
 
 
+//form validation
+const form=document.getElementById("form");
+const names=document.getElementById("names");
+const email=document.getElementById("email");
+const coment=document.getElementById("coment");
+
+form.addEventListener("submit", e =>{
+      e.preventDefault();
+    validateinputs();    
+})
+
+const isValidEmail = email => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (email.toLowerCase()===email ){ 
+   return re.test(String(email).toLowerCase());}
+}
+
+const validateinputs=() =>{  
+    const nameinput= names.value.trim();
+    const emailinput= email.value.trim();
+    const comentinput= coment.value.trim();   
+    if(nameinput===""){  const errornames = document.querySelector(".your-name-container");
+    names.placeholder="Please enter your name";
+    errornames.classList.add("error");
+       }
+    else { 
+   const succesnames = document.querySelector(".your-name-container");
+   succesnames.classList.add("succes");
+    }
+
+    if(emailinput===""){
+    const erroremail = document.querySelector(".email-container");
+    email.placeholder="Please enter your email";
+    erroremail.classList.add("error")
+      ; }  else if(!isValidEmail(emailinput)){
+        const errormail3= document.querySelector(".upererrorselect");
+        const erroremail2 = document.querySelector(".email-container");
+        errormail3.classList.add("upererror");
+        email.placeholder="Please enter a valid email";
+        erroremail2.classList.add("error");
+      }      
+    else {  const succesemail = document.querySelector(".email-container");
+   succesemail.classList.add("succes");
+    }
+
+    if(comentinput===""){  
+    const errorcoment = document.querySelector(".form-coment");
+    errorcoment.placeholder="I would appreciate it if you leave a comment";
+    errorcoment.classList.add("error");
+       }
+    else { 
+   const succescoment = document.querySelector(".form-coment");
+   succescoment.classList.add("succes");
+    }
+}
+//Form validation end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
