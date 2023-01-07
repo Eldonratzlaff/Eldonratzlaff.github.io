@@ -645,6 +645,7 @@ textarea::placeholder {
 .popup {
   padding: 10px 4vw;
   width: 90vw;
+
   /* height: auto; */
   border-radius: 20px;
   background-color: #dfdfe0;
@@ -701,7 +702,7 @@ textarea::placeholder {
 
 .popup-title {
   font-size: 40px;
-margin: 5px 0px;
+  margin: 5px 0;
 }
 
 .popup-skils {
@@ -717,7 +718,7 @@ margin: 5px 0px;
   height: 20px;
   width: 87px;
   border: #1a2236 solid 2px;
-  margin: 0 2vw ;
+  margin: 0 2vw;
 }
 
 .popup-image1 {
@@ -726,9 +727,9 @@ margin: 5px 0px;
   background-size: contain;
   background-position: center;
   width: 60vw;
+
   /* min-width: 60vw; */
   min-height: 50vh;
-
 }
 
 .popup-image2 {
@@ -776,14 +777,14 @@ margin: 5px 0px;
   min-height: 25vh;
 }
 
-.popup-btn-conteiner{
+.popup-btn-conteiner {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 180px;
-
 }
-.popup-btn{
+
+.popup-btn {
   border: #1a2236 solid 2px;
   width: 180px;
   height: 30px;
