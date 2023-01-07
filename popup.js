@@ -73,8 +73,7 @@ function loadpages() {
         </div>
         <div class="popup-btn-conteiner">
             <a class="popup-btn" href="#">See live</a>
-            <a class="popup-btn" href="#">See source</a>
-            
+            <a class="popup-btn" href="#">See source</a>            
         </div>
     </div>  
     
@@ -92,14 +91,15 @@ function loadpages() {
         </div>
         <div class="popup-image2"></div>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto?</p>
-        </div>
-        <div>
-            <a href="#">See live</a>
-            <a href="#">See source</a>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum! </p>
-        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum!</p>
+    </div>
+    <div class="popup-btn-conteiner">
+        <a class="popup-btn" href="#">See live</a>
+        <a class="popup-btn" href="#">See source</a>
+        
+    </div>
     </div>    
+
 <!-- proyecct3 -->
 <div class="popup popup3">
     <div class="close-container">
@@ -113,14 +113,15 @@ function loadpages() {
         </div>
         <div class="popup-image3"></div>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto?</p>
-        </div>
-        <div>
-            <a href="#">See live</a>
-            <a href="#">See source</a>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum! </p>
-        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum!</p>
+    </div>
+    <div class="popup-btn-conteiner">
+        <a class="popup-btn" href="#">See live</a>
+        <a class="popup-btn" href="#">See source</a>
+        
+    </div>
     </div> 
+
     <!-- proyecct4 -->
     <div class="popup popup4">
         <div class="close-container">
@@ -134,14 +135,15 @@ function loadpages() {
             </div>
             <div class="popup-image4"></div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto?</p>
-            </div>
-            <div>
-                <a href="#">See live</a>
-                <a href="#">See source</a>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum! </p>
-            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum!</p>
+        </div>
+        <div class="popup-btn-conteiner">
+            <a class="popup-btn" href="#">See live</a>
+            <a class="popup-btn" href="#">See source</a>
+            
+        </div>
         </div> 
+
     <!-- proyecct5 -->
     <div class="popup popup5">
         <div class="close-container">
@@ -155,14 +157,15 @@ function loadpages() {
             </div>
             <div class="popup-image5"></div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto?</p>
-            </div>
-            <div>
-                <a href="#">See live</a>
-                <a href="#">See source</a>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum! </p>
-            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum!</p>
+        </div>
+        <div class="popup-btn-conteiner">
+            <a class="popup-btn" href="#">See live</a>
+            <a class="popup-btn" href="#">See source</a>
+            
+        </div>
         </div> 
+
     <!-- proyecct6 -->
     <div class="popup popup6">
         <div class="close-container">
@@ -176,13 +179,12 @@ function loadpages() {
             </div>
             <div class="popup-image6"></div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto?</p>
-            </div>
-            <div>
-                <a href="#">See live</a>
-                <a href="#">See source</a>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum! </p>
-            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum!</p>
+        </div>
+        <div class="popup-btn-conteiner">
+            <a class="popup-btn" href="#">See live</a>
+            <a class="popup-btn" href="#">See source</a>            
+        </div>
         </div> 
 
 
