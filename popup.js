@@ -238,7 +238,9 @@ const validateinputs=() =>{
     email.placeholder="Please enter your email";
     erroremail.classList.add("error")
       ; }  else if(!isValidEmail(emailinput)){
+        const errormail3= document.querySelector(".upererrorselect");
         const erroremail2 = document.querySelector(".email-container");
+        errormail3.classList.add("upererror");
         email.placeholder="Please enter a valid email";
         erroremail2.classList.add("error");
       }      

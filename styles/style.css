@@ -485,6 +485,17 @@ input {
     3px;
 }
 
+.upererrorselect {
+  display: none;
+}
+
+.upererror {
+  display: block;
+  margin-left: 20px;
+  font-size: 15px;
+  color: #ab1c28;
+}
+
 input::placeholder {
   padding-left: 16px;
   color: black;
