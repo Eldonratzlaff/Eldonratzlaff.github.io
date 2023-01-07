@@ -69,12 +69,12 @@ function loadpages() {
         </div>
         <div class="popup-image1"></div>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium et deserunt fuga nulla dolorem iure vel, itaque corrupti molestiae iusto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum!</p>
         </div>
-        <div>
-            <a href="#">See live</a>
-            <a href="#">See source</a>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum llat iias tempora illo suscipit optio, eligendi esse ullam fuga non facere dolorem eveniet mlaudantium omnis maiores eos corporis eum temporibus est, vel fuga modi ullam. Qui eaque dolores nesciunt aliquid cum! </p>
+        <div class="popup-btn-conteiner">
+            <a class="popup-btn" href="#">See live</a>
+            <a class="popup-btn" href="#">See source</a>
+            
         </div>
     </div>  
     

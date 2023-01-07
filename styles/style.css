@@ -157,7 +157,7 @@ body {
 }
 
 .project2 {
-  background-image: url("../pict-mobile/Rectangle\ 21\ \(1\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 211.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -168,7 +168,7 @@ body {
 }
 
 .project3 {
-  background-image: url("../pict-mobile/Rectangle\ 21\ \(2\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 212.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -179,7 +179,7 @@ body {
 }
 
 .project4 {
-  background-image: url("../pict-mobile/Rectangle\ 21\ \(3\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 213.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -190,7 +190,7 @@ body {
 }
 
 .project5 {
-  background-image: url("../pict-mobile/Rectangle\ 21\ \(4\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 214.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -201,7 +201,7 @@ body {
 }
 
 .project6 {
-  background-image: url("../pict-mobile/Rectangle\ 21\ \(5\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 215.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -643,11 +643,9 @@ textarea::placeholder {
 /* popup section */
 
 .popup {
-  /* padding: 50px 20px; */
+  padding: 10px 4vw;
   width: 90vw;
-  height: auto;
-
-  /* margin: 0vh 5vh 5vh 5vw; */
+  /* height: auto; */
   border-radius: 20px;
   background-color: #dfdfe0;
   display: flex;
@@ -703,6 +701,7 @@ textarea::placeholder {
 
 .popup-title {
   font-size: 40px;
+margin: 5px 0px;
 }
 
 .popup-skils {
@@ -710,10 +709,15 @@ textarea::placeholder {
 }
 
 .popup-h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
   font-size: 10px;
   height: 20px;
   width: 87px;
   border: #1a2236 solid 2px;
+  margin: 0 2vw ;
 }
 
 .popup-image1 {
@@ -722,11 +726,13 @@ textarea::placeholder {
   background-size: contain;
   background-position: center;
   width: 60vw;
-  min-height: 25vh;
+  /* min-width: 60vw; */
+  min-height: 50vh;
+
 }
 
 .popup-image2 {
-  background-image: url(../pict-mobile/Rectangle\ 21\ \(1\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 211.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -735,7 +741,7 @@ textarea::placeholder {
 }
 
 .popup-image3 {
-  background-image: url(../pict-mobile/Rectangle\ 21\ \(2\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 212.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -744,7 +750,7 @@ textarea::placeholder {
 }
 
 .popup-image4 {
-  background-image: url(../pict-mobile/Rectangle\ 21\ \(3\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 213.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -753,7 +759,7 @@ textarea::placeholder {
 }
 
 .popup-image5 {
-  background-image: url(..pict-mobile/Rectangle\ 21\ \(4\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 214.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -762,10 +768,27 @@ textarea::placeholder {
 }
 
 .popup-image6 {
-  background-image: url(../pict-mobile/Rectangle\ 21\ \(5\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 215.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
   min-height: 25vh;
+}
+
+.popup-btn-conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+
+}
+.popup-btn{
+  border: #1a2236 solid 2px;
+  width: 180px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
