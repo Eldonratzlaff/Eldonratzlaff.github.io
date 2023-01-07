@@ -117,7 +117,7 @@ body {
 }
 
 .ornamen-first-botom {
-  background-image: url("/pict-mobile/image_geometry_2.svg");
+  background-image: url("../pict-mobile/image_geometry_2.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -146,7 +146,7 @@ body {
 }
 
 .project1 {
-  background-image: url("/pict-mobile/Rectangle\ 21.svg");
+  background-image: url("../pict-mobile/work1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -157,7 +157,7 @@ body {
 }
 
 .project2 {
-  background-image: url("/pict-mobile/Rectangle\ 21\ \(1\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 21\ \(1\).svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -168,7 +168,7 @@ body {
 }
 
 .project3 {
-  background-image: url("/pict-mobile/Rectangle\ 21\ \(2\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 21\ \(2\).svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -179,7 +179,7 @@ body {
 }
 
 .project4 {
-  background-image: url("/pict-mobile/Rectangle\ 21\ \(3\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 21\ \(3\).svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -190,7 +190,7 @@ body {
 }
 
 .project5 {
-  background-image: url("/pict-mobile/Rectangle\ 21\ \(4\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 21\ \(4\).svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -201,7 +201,7 @@ body {
 }
 
 .project6 {
-  background-image: url("/pict-mobile/Rectangle\ 21\ \(5\).svg");
+  background-image: url("../pict-mobile/Rectangle\ 21\ \(5\).svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -277,7 +277,7 @@ body {
 }
 
 .proyect-foot1-img {
-  background-image: url(/pict-mobile/arrow.svg);
+  background-image: url(../pict-mobile/arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 18px;
@@ -339,7 +339,7 @@ body {
 }
 
 .get-mycv-icon {
-  background-image: url(/pict-mobile/icdownload.svg);
+  background-image: url(../pict-mobile/icdownload.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 26px;
@@ -360,7 +360,7 @@ body {
   width: 288px;
   height: 288px;
   background: #1c528a;
-  background-image: url(/pict-mobile/hash.svg);
+  background-image: url(../pict-mobile/hash.svg);
   background-repeat: no-repeat;
   background-size: 102px 102px;
   background-position: bottom right;
@@ -374,7 +374,7 @@ body {
 
   /* background: #e2505c; */
   background: #ab1c28;
-  background-image: url(/pict-mobile/Group\ 18.svg);
+  background-image: url(../pict-mobile/Group\ 18.svg);
   background-repeat: no-repeat;
   background-size: 102px 102px;
   background-position: bottom right;
@@ -387,7 +387,7 @@ body {
   color: #fff;
   width: 288px;
   height: 288px;
-  background-image: url(/pict-mobile/ic_skills.svg);
+  background-image: url(../pict-mobile/ic_skills.svg);
   background-repeat: no-repeat;
   background-size: 102px 102px;
   background-position: bottom right;
@@ -525,7 +525,7 @@ textarea::placeholder {
 }
 
 .get-resume-btn div {
-  background-image: url(/pict-mobile/box-arrow-up-right_1.svg);
+  background-image: url(../pict-mobile/box-arrow-up-right_1.svg);
   background-repeat: no-repeat;
   height: 21px;
   width: 21px;
@@ -539,7 +539,7 @@ textarea::placeholder {
 }
 
 .stak {
-  background-image: url(/pict-mobile/ic_stackoverflow.svg);
+  background-image: url(../pict-mobile/ic_stackoverflow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 24px;
@@ -547,7 +547,7 @@ textarea::placeholder {
 }
 
 .git {
-  background-image: url(/pict-mobile/github.svg);
+  background-image: url(../pict-mobile/github.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 24px;
@@ -555,7 +555,7 @@ textarea::placeholder {
 }
 
 .twitt {
-  background-image: url(/pict-mobile/twitter.svg);
+  background-image: url(../pict-mobile/twitter.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 24px;
@@ -563,7 +563,7 @@ textarea::placeholder {
 }
 
 .link {
-  background-image: url(/pict-mobile/linkin.svg);
+  background-image: url(../pict-mobile/linkin.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 24px;
@@ -571,7 +571,7 @@ textarea::placeholder {
 }
 
 .medium {
-  background-image: url(/pict-mobile/medium.svg);
+  background-image: url(../pict-mobile/medium.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 24px;
@@ -579,7 +579,7 @@ textarea::placeholder {
 }
 
 .angelist {
-  background-image: url(/pict-mobile/angelist.svg);
+  background-image: url(../pict-mobile/angelist.svg);
   background-repeat: no-repeat;
   background-size: contain;
   height: 24px;
@@ -643,11 +643,11 @@ textarea::placeholder {
 /* popup section */
 
 .popup {
-  padding: 50px 20px;
-  width: 80vw;
+  /* padding: 50px 20px; */
+  width: 90vw;
+  height: auto;
 
-  /* height: 100%; */
-  margin: 10vh 5vh 5vh 5vw;
+  /* margin: 0vh 5vh 5vh 5vw; */
   border-radius: 20px;
   background-color: #dfdfe0;
   display: flex;
@@ -655,8 +655,9 @@ textarea::placeholder {
   align-content: center;
   align-items: center;
   position: fixed;
-  top: 5vh;
-  bottom: 5vh;
+  top: 3vh;
+  left: 2vw;
+  bottom: 1vh;
 }
 
 .popup1 {
@@ -692,7 +693,7 @@ textarea::placeholder {
 }
 
 .close-x {
-  background-image: url(/pict-mobile/Union.svg);
+  background-image: url(../pict-mobile/Union.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -716,55 +717,55 @@ textarea::placeholder {
 }
 
 .popup-image1 {
-  background-image: url(/pict-mobile/Rectangle\ 21.svg);
+  background-image: url(../pict-mobile/work1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
-  height: 60vh;
+  min-height: 25vh;
 }
 
 .popup-image2 {
-  background-image: url(/pict-mobile/Rectangle\ 21\ \(1\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 21\ \(1\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
-  height: 60vh;
+  min-height: 25vh;
 }
 
 .popup-image3 {
-  background-image: url(/pict-mobile/Rectangle\ 21\ \(2\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 21\ \(2\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
-  height: 60vh;
+  min-height: 25vh;
 }
 
 .popup-image4 {
-  background-image: url(/pict-mobile/Rectangle\ 21\ \(3\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 21\ \(3\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
-  height: 60vh;
+  min-height: 25vh;
 }
 
 .popup-image5 {
-  background-image: url(/pict-mobile/Rectangle\ 21\ \(4\) .svg);
+  background-image: url(..pict-mobile/Rectangle\ 21\ \(4\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
-  height: 60vh;
+  min-height: 25vh;
 }
 
 .popup-image6 {
-  background-image: url(/pict-mobile/Rectangle\ 21\ \(5\) .svg);
+  background-image: url(../pict-mobile/Rectangle\ 21\ \(5\) .svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 60vw;
-  height: 60vh;
+  min-height: 25vh;
 }

@@ -9,7 +9,7 @@ popup_proyect1.addEventListener("click",() => {
     const works1=document.querySelector(".popup1");    
      works1.classList.add("popup-visible");
       })
-//const popup_proyect2 = document.querySelector(".works2");
+//proyect2 = document.querySelector(".works2");
 const popup_proyect2=document.querySelector(".works2");
 popup_proyect2.addEventListener("click",() => { 
         loadpages();
@@ -17,7 +17,7 @@ popup_proyect2.addEventListener("click",() => {
         works2.classList.add("popup-visible");
             })
 
-//const popup_proyect3 = document.querySelector(".works3");
+//proyect3 = document.querySelector(".works3");
 const popup_proyect3=document.querySelector(".works3");
 popup_proyect3.addEventListener("click",() => { 
         loadpages();
@@ -25,7 +25,7 @@ popup_proyect3.addEventListener("click",() => {
         works3.classList.add("popup-visible");
             })
 
-//const popup_proyect4 = document.querySelector(".works4");
+//proyect4 = document.querySelector(".works4");
 const popup_proyect4=document.querySelector(".works4");
 popup_proyect4.addEventListener("click",() => { 
         loadpages();
@@ -33,7 +33,7 @@ popup_proyect4.addEventListener("click",() => {
         works4.classList.add("popup-visible");
             })
 
-//const popup_proyect5 = document.querySelector(".works5");
+//proyect5 = document.querySelector(".works5");
 const popup_proyect5=document.querySelector(".works5");
 popup_proyect5.addEventListener("click",() => { 
         loadpages();
@@ -41,19 +41,13 @@ popup_proyect5.addEventListener("click",() => {
         works5.classList.add("popup-visible");
             })
 
-//const popup_proyect6 = document.querySelector(".works6");
+//proyect6 = document.querySelector(".works6");
 const popup_proyect6=document.querySelector(".works6");
 popup_proyect6.addEventListener("click",() => { 
         loadpages();
         const works6=document.querySelector(".popup6");    
         works6.classList.add("popup-visible");
             })
-
-
-
-
-
-
 //popup_proyect.addEventListener("click",loadpages)
 
 

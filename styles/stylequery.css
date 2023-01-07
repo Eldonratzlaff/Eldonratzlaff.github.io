@@ -26,7 +26,7 @@
 
   .top-text {
     max-width: 484px;
-    background-image: url(/pic-desktop/image_dots.svg);
+    background-image: url(../pic-desktop/image_dots.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 175px 175px;
@@ -44,7 +44,7 @@
   }
 
   .ornamen-first-botom {
-    background-image: url("/pic-desktop/Thur.svg");
+    background-image: url("../pic-desktop/Thur.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -128,7 +128,7 @@
     grid-area: picture6;
 
     /* display: block; */
-    background-image: url(/pict-mobile/Rectangle\ 21\ \(5\) .svg);
+    background-image: url(../pict-mobile/Rectangle\ 21\ \(5\) .svg);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -136,7 +136,7 @@
   .ornament1 {
     grid-area: ornament1;
     display: block;
-    background-image: url(/pic-desktop/image-geometry_5.svg), url(/pic-desktop/image-geometry_4.svg);
+    background-image: url(../pic-desktop/image-geometry_5.svg), url(/pic-desktop/image-geometry_4.svg);
     background-repeat: no-repeat no-repeat;
     background-size: contain contain;
     background-size: 124px 124px 87px 87px;
@@ -146,7 +146,7 @@
   .ornament2 {
     grid-area: ornament2;
     display: block;
-    background-image: url(/pic-desktop/Shape.svg);
+    background-image: url(../pic-desktop/Shape.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 130px 130px;
@@ -157,7 +157,7 @@
     grid-area: ornament3;
     z-index: -1;
     display: block;
-    background-image: url(/pic-desktop/image-geometry_2.svg);
+    background-image: url(../pic-desktop/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 430px 280px;
@@ -170,7 +170,7 @@
     grid-area: ornament4;
     z-index: -1;
     display: block;
-    background-image: url(/pic-desktop/Group\ 83.svg);
+    background-image: url(../pic-desktop/Group\ 83.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 350px 175px;
@@ -304,7 +304,7 @@
   }
 
   .categories-img {
-    background-image: url(/pic-desktop/image_dots_with_teal.svg);
+    background-image: url(../pic-desktop/image_dots_with_teal.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 222px 222px;
@@ -321,7 +321,7 @@
   }
 
   .foot-section-andform {
-    background-image: url(/pic-desktop/image-geometry_6.svg), url(/pic-desktop/image-geometry_7.svg);
+    background-image: url(../pic-desktop/image-geometry_6.svg), url(/pic-desktop/image-geometry_7.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
     background-size: 264px 351px, 351px 351px;
@@ -409,7 +409,7 @@
   }
 
   .get-resume-btn div {
-    background-image: url(/pic-desktop/ic-link_teal.svg);
+    background-image: url(../pic-desktop/ic-link_teal.svg);
     background-size: contain;
   }
 
