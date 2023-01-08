@@ -1,3 +1,11 @@
+// get element
+const Form = document.getElementById('form');
+const {
+  names: nameInput,
+  email: emailInput,
+  coment: messageInput,
+} = Form.elements;
+//function if storage available
 function storageAvailable(type) {
     let storage;
     try {
@@ -23,9 +31,46 @@ function storageAvailable(type) {
     }
 }
 
+let availableStorage;
 if (storageAvailable('localStorage')) {
-    console.log( "Yippee! We can use localStorage awesomeness")
+   availableStorage= window.localStorage;
   }
   else {
-    console.log("storage available");
+     availableStorage=null;
+     //no available
   }
+  //create Data object
+const pageData={};
+function storeData() {
+    pageData.names = nameInput.value;
+    pageData.email = emailInput.value;
+    pageData.coment = messageInput.value;
+    const jsonData = JSON.stringify(pageData);
+    availableStorage.setItem('FormData', jsonData);
+  }
+//-----------------------------------------------------------------
+// listen 
+nameInput.addEventListener('change', () => {
+    storeData();
+    console.log("hola");
+  });  
+  emailInput.addEventListener('change', () => {
+    storeData();
+  });  
+  messageInput.addEventListener('change', () => {
+    storeData();
+  });
+// recuperar datos
+function recuperaData(){
+    const contactData = availableStorage.getItem('FormData');
+    const parseContactData = JSON.parse(contactData);
+    if (contactData?.length > 0) {
+      const { names, email, coment } = parseContactData;
+      nameInput.value = names || '';
+      emailInput.value = email || '';
+      messageInput.value = coment || '';
+    }
+}
+  window.onload = () => {
+    recuperaData();
+     };
