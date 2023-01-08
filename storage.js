@@ -5,6 +5,16 @@ const {
   email: emailInput,
   coment: messageInput,
 } = Form.elements;
+
+
+let availableStorage;
+if (storageAvailable('localStorage')) {
+   availableStorage= window.localStorage;
+  }
+  else {
+     availableStorage=null;
+     //no available
+  }
 //function if storage available
 function storageAvailable(type) {
     let storage;
@@ -31,14 +41,7 @@ function storageAvailable(type) {
     }
 }
 
-let availableStorage;
-if (storageAvailable('localStorage')) {
-   availableStorage= window.localStorage;
-  }
-  else {
-     availableStorage=null;
-     //no available
-  }
+
   //create Data object
 const pageData={};
 function storeData() {
